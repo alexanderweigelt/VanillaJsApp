@@ -1,0 +1,15 @@
+{
+  "name": "@my-app/backend",
+  "version": "1.0.0",
+  "description": "Example backend to provide API endpoints",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "express": "^4.21.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}

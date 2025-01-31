@@ -1,0 +1,29 @@
+{
+  "name": "my-app",
+  "description": "An example app build with vanilla JS. It presents a lightweight headless frontend and backend. It's developed without frameworks.",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "start": "npm run start:frontend & npm run start:backend",
+    "start:frontend": "npm run start --workspace=frontend",
+    "start:backend": "npm run start --workspace=backend",
+    "test": "npm run test --workspace=frontend",
+    "format": "prettier . --cache --write",
+    "lint": "eslint .",
+    "openapi-generator": "openapi-generator-cli generate"
+  },
+  "workspaces": [
+    "packages/clients/*",
+    "frontend",
+    "backend"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@openapitools/openapi-generator-cli": "^2.16.3",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-jest": "^28.11.0",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "typescript-eslint": "^8.21.0"
+  }
+}

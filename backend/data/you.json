@@ -1,0 +1,12 @@
+[
+  { "id": 1, "property": "relaxed" },
+  { "id": 2, "property": "correct" },
+  { "id": 3, "property": "outgoing" },
+  { "id": 4, "property": "optimistic" },
+  { "id": 5, "property": "thoughtful" },
+  { "id": 6, "property": "playful" },
+  { "id": 7, "property": "confident" },
+  { "id": 8, "property": "hardworking" },
+  { "id": 9, "property": "extroverted" },
+  { "id": 10, "property": "open-minded" }
+]

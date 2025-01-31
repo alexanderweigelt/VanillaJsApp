@@ -1,0 +1,9 @@
+### HTTP request backend API
+
+### GET request to MeApi Endpoint
+@meId =1
+GET http://localhost:3001/api/me/{{meId}}
+
+### GET request to YouApi Endpoint
+@youId =1
+GET http://localhost:3001/api/you/{{youId}}

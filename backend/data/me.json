@@ -1,0 +1,12 @@
+[
+  { "id": 1, "youId": 1, "property": "upset" },
+  { "id": 2, "youId": 2, "property": "chaotic" },
+  { "id": 3, "youId": 3, "property": "reserved" },
+  { "id": 4, "youId": 4, "property": "pessimistic" },
+  { "id": 5, "youId": 5, "property": "impulsive" },
+  { "id": 6, "youId": 6, "property": "serious" },
+  { "id": 7, "youId": 7, "property": "insecure" },
+  { "id": 8, "youId": 8, "property": "lazy" },
+  { "id": 9, "youId": 9, "property": "introverted" },
+  { "id": 10, "youId": 10, "property": "stubborn" }
+]
